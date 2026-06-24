@@ -1,5 +1,7 @@
 # Automated c2patool: Powershell
 
+A set of scripts to help automate CAI information extracted from a set of media files. Based on [c2pa-rs](https://github.com/contentauth/c2pa-rs?tab=License-1-ov-file)
+
 > Note: To run the Powershell script, either right click the file and select `Run`, drag and drop into a Powershell terminal (the directory is going to be inputed in the terminal) and hit `enter`, or manually type the directory to run the script in Powershell.
 
 Add all the images and videos you want to extract the manifests from in the `media` directory.
@@ -11,5 +13,3 @@ After putting the desired media in the `media` directory, simply run `extractCAI
 ## movejsons.ps1
 
 Moves all the `json` files to a folder named `json` for check revisions.
-
-> A set of scripts to help automate CAI information extracted from a set of media files. Based on [c2pa-rs](https://github.com/contentauth/c2pa-rs?tab=License-1-ov-file)
